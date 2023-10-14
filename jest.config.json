@@ -1,0 +1,22 @@
+{
+  "testEnvironment": "jest-environment-jsdom",
+  "moduleFileExtensions": ["js", "jsx", "ts", "tsx", "d.ts"],
+  "moduleNameMapper": {
+    "^.+\\.svg$": "jest-svg-transformer",
+    "^.+\\.(png|jpg|gif)$": "<rootDir>/test/mocks/fileMock.js",
+    "^.+\\.(css|less|scss)$": "identity-obj-proxy",
+    "^svgs/(.*)": "<rootDir>/src/svgs/$1",
+    "^app/(.*)": "<rootDir>/src/app/$1",
+    "^test/(.*)": "<rootDir>/test/$1"
+  },
+  "setupFilesAfterEnv": ["<rootDir>/test/setupTests.js"],
+  "coverageProvider": "babel",
+  "collectCoverageFrom": [
+    "src/app/**/*.{js,jsx,ts,tsx}",
+    "!**/*.d.ts",
+    "!**/*.stories.tsx",
+    "!src/app/index.tsx",
+    "!src/app/components/**/index.ts",
+    "!**/node_modules/**"
+  ]
+}

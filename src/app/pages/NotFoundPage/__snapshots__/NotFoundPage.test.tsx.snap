@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`app/pages/NotFoundPage stories Sample matches markup snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="text-center"
+  >
+    <header
+      class="min-h-screen flex flex-col items-center justify-center"
+    >
+      <h1>
+        Sorry! That page was not found.
+      </h1>
+      <p>
+        <a
+          href="/"
+        >
+          Back to Home
+        </a>
+      </p>
+    </header>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`app/pages/HomePage stories Sample matches markup snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="text-center"
+  >
+    <header
+      class="min-h-screen flex flex-col items-center justify-center"
+    >
+      <img
+        alt="logo"
+        class="sc-bdnyFh dokdYg animate-spin"
+      />
+      <p>
+        Edit 
+        <code>
+          src/app/pages/HomePage
+        </code>
+         and save to reload.
+      </p>
+      <a
+        href="https://reactjs.org"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Learn React
+      </a>
+    </header>
+  </div>
+</DocumentFragment>
+`;
